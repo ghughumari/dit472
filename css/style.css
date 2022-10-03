@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: red;
+}
+div{
+    background-color: rgb(165, 97, 42);
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+div h1{font-size: 35px;
+    text-transform: uppercase;
+
+}
+input label{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+}
+input{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 17px;
+}
+input[
+    type="submit"
+]{
+    margin-top: 20px;
+}
+input[
+    type="submit"]:hover{
+        background-color: blue;
+    }
+    p{
+        font-size: 17px;
+    }
+    pa{
+        color: deeppink;
+        text-decoration: none;
+    }
